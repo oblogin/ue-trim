@@ -72,7 +72,7 @@ ue-trim C:\UE5 --platforms Windows,Linux,Android,IOS --execute
 .\ue-trim.ps1 C:\UE5 -Platforms "Windows,Linux,Android,IOS" -KeepGit -KeepIntermediate
 
 # Максимальная очистка (всё + тесты + PDB):
-.\ue-trim.ps1 C:\UE5 -Platforms "Windows" -RemoveTests -StripPdb
+.\ue-trim.ps1 C:\UE5 -Platforms "Windows,Linux,Android,IOS" -RemoveTests -StripPdb -Execute
 ```
 
 ## Что удаляется
