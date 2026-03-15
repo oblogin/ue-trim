@@ -1,0 +1,9 @@
+[package]
+name = "ue-trim"
+version = "1.0.0"
+edition = "2021"
+description = "Утилита для сокращения размера билда Unreal Engine. Удаляет ненужные платформы, кэши, шаблоны и git-историю."
+
+[[bin]]
+name = "ue-trim"
+path = "src/main.rs"
